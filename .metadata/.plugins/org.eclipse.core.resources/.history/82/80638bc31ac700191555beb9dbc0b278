@@ -1,0 +1,24 @@
+package no.hvl.dat100;
+
+import easygraphics.EasyGraphics;
+import static javax.swing.JOptionPane.*;
+import static java.lang.Double.*;
+
+public class Oppgave7 extends EasyGraphics {
+	
+	 public static void main(String[] args) {
+		    launch(args);
+		  }
+
+		  public void run() {
+			  
+			  fillRectangle
+
+			  
+
+	
+	
+	
+	
+          }
+}

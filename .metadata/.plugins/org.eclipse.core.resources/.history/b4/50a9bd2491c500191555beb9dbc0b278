@@ -1,0 +1,23 @@
+package no.hvl.dat100;
+
+import easygraphics.EasyGraphics;
+
+public class Oppgave6 extends EasyGraphics {
+
+	
+	 public static void main(String[] args) {
+		    launch(args);
+		  }
+
+		  public void run() {
+		    makeWindow("Det franske flagget");
+
+		    setColor(0, 0, 0);
+		    fillRectangle(50, 50, 300, 200);
+		    setColor(255, 50, 0);
+		    fillRectangle(50, 50, 250, 200);
+		    setColor(0, 0, 0);
+		    drawRectangle(50, 50, 300, 200);
+		  }
+
+		}

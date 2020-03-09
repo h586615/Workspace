@@ -1,0 +1,17 @@
+package no.hvl.dat100;
+	
+	import easygraphics.EasyGraphics;
+	
+	public class Oppgave6 extends EasyGraphics {
+		
+			public static void main(String[] args) {
+				launch(args);
+}
+
+			public void run() {
+				makeWindow("Grafikk", 350, 150);
+				drawCircle(150, 70, 60);
+				drawCircle(150, 210, 60);
+	}
+
+}

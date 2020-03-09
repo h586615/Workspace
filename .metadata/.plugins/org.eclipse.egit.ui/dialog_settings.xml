@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel" value="0"/>
+	<item key="GitSelectRepositoryPage.lastRepository" value="C:\Users\Tallah\git\dat100public\.git"/>
+	<list key="EGit.KnownHosts">
+		<item value="git.eclipse.org"/>
+		<item value="bitbucket.org"/>
+		<item value="github.com"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/dat100hib/dat100public.git"/>
+		<item value="git@github.com:dat100hib/dat100public.git"/>
+		<item value="github.com:dat100hib/dat100public.git"/>
+		<item value="h586615@github.com:dat100hib/dat100public.git"/>
+		<item value="https://github.com/dat100hib/dat100-jplab12-testing.git"/>
+		<item value="https://github.com/dat100hib/dat100-prosjekt-testing-2019.git"/>
+		<item value="https://github.com/dat100hib/dat100-programmering-12-2019-h586615.git"/>
+	</list>
+	<section name="GitImportWizard">
+		<item key="GitProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.pull.PullResultDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="549"/>
+		<item key="DIALOG_Y_ORIGIN" value="216"/>
+		<item key="DIALOG_WIDTH" value="840"/>
+		<item key="DIALOG_HEIGHT" value="462"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

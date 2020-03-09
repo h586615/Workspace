@@ -1,0 +1,51 @@
+package no.hvl.dat100;
+
+import easygraphics.EasyGraphics;
+import static javax.swing.JOptionPane.*;
+import static java.lang.Double.*;
+
+
+public class Oppgave6 extends EasyGraphics {
+
+	
+	 public static void main(String[] args) {
+		    launch(args);
+		  }
+
+		  public void run() {
+			  
+			  String percent = showInputDialog ("Prosent");
+			  double prosent = parseDouble(percent);
+			  
+			  int lengde = (int) Math.floor(prosent*400);
+			  int hoyde = (int) Math.floor(prosent*100);
+			  
+			 
+			  
+		    makeWindow("Det franske flagget");
+		    
+		    
+		    
+		    setColor(255, 20, 20);
+		    fillRectangle(50, 50, lengde, hoyde);
+		    setColor(255, 255, 255);
+		    fillRectangle(50, 50+ hoyde , lengde, hoyde);
+		    setColor(20, 20, 255);
+		    fillRectangle(50, 50 + 2*hoyde, lengde, hoyde);
+		    setColor(0, 0, 0);
+		    
+		    
+		    
+		    //drawRectangle(50, 250, 400, 100);
+		    //RGB
+		    
+		
+		    
+		   
+	
+		    
+
+		    
+		  }
+
+		}

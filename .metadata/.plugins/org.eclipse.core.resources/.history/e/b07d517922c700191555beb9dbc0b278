@@ -1,0 +1,35 @@
+package no.hvl.dat100;
+
+import easygraphics.EasyGraphics;
+import static javax.swing.JOptionPane.*;
+import static java.lang.Double.*;
+
+public class Oppgave7 extends EasyGraphics {
+	
+	 public static void main(String[] args) {
+		    launch(args);
+		  }
+
+		  public void run() {
+			  
+			  
+			 
+			  
+			  makeWindow("Statistikker for antall gutter og jenter");
+			  
+			  
+			  // A-Klassen
+			  setColor(0, 250, 0);
+			    fillRectangle(20, 30, 100, 40);
+			    setColor(255, 0, 0);
+			    fillRectangle(100, 30 , 180, 40);
+			   setColor(0, 0, 0);
+			    drawRectangle(20, 30, 260, 40);
+			   // B-Klassen
+			    /*setColor(0, 250, 0);
+			    fillRectangle(20, 80, 120, 90);
+			    setColor(255, 0, 0);
+			    fillRectangle(120, 80, 180, 90);*/
+	
+          }
+}

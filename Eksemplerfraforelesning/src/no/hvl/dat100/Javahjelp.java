@@ -1,0 +1,18 @@
+package no.hvl.dat100;
+
+import static javax.swing.JOptionPane.*;
+
+public class Javahjelp {
+
+	public static void main(String[] args) {
+		String innlestStreng = showInputDialog("Oppgi et tall");
+		int vo = Integer.parseInt(innlestStreng);
+		int svar = produkt(vo,5);
+	}
+
+	public static int produkt(int a, int b) {
+		// int svar = a * b;
+		return a * b;
+	}
+
+}

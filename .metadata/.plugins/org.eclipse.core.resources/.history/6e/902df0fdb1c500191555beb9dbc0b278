@@ -1,0 +1,22 @@
+package no.hvl.dat100;
+
+import static java.lang.Integer.parseInt;
+import static javax.swing.JOptionPane.*;
+
+
+public class Oppgave3 {
+	public static void main(String[] args) {
+
+		String datoTxt = showInputDialog("Oppgi dato");
+		String maanedTxt = showInputDialog("Oppgi månedsnummer");
+		String aarTxt = showInputDialog("Oppgi fødselsår");
+		
+		int forstetall=parseInt(datoTxt);
+		int andretall=parseInt(maanedTxt);
+		int tredjetall=parseInt(aarTxt);
+		
+		String txt = ( "Vedkommende er født den" + "\n" + datoTxt + "." + maanedTxt + "." + aarTxt);
+		
+		System.out.println(txt);
+	}
+}
